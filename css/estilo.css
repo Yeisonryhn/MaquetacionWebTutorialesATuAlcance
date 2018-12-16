@@ -29,7 +29,8 @@ header
 	background:rgba(255,255,0,.5)
 }
 
-#logo{
+#logo
+{
 	position:absolute;
 	top: 17px;
 	left: 15px;
@@ -49,6 +50,27 @@ nav
 	width: 1000px;
 	height: 45px;
 	background:rgba(255,0,0,.5);
+}
+
+nav ul
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 500px;
+	height: 45px;
+	background: rgba(0,0,255,0.3);
+}
+
+nav ul li
+{
+	float: left;/*ESTO ES POSICION FLOTANTE DE IZQUIERDA A DERECHA*/
+	width: 125px;
+	line-height: 45px;/*UBICA A NIVEL VERTICAL A LA MISMA ALTURA DE LA BARRA DE NAVEGACION*/
+	text-align: center;/*ALINEA EL TEXTO EN LA MITAD DEL BOTON DE LA NAVBAR*/
+	font-size: 14px;
+	color: white;/*COLOR DE FUENTE*/
+	background: rgba(150,150,150,.5);
 }
 /*FIN NAV*/
 /*------------------------------------------------------------------*/
