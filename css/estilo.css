@@ -1,0 +1,119 @@
+/*SELECTOR UNIVERSAL SE USA PARA FORMATEAR LOS ESTILOS*/
+*
+{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*FIN DEL SELECTOR UNIVERSAL*/
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+/*BODY*/
+body
+{
+    background:url(../img/index.jpg);
+    background-position: top center;/*PARA QUE CENTRE LA IMAGEN DE GUIA*/
+    height: 1080px;
+}
+/*FIN BODY*/
+
+/*------------------------------------------------------------------*/
+/*ESTILO DEL HEADER*/
+header
+{
+	position:relative;
+	margin: auto;
+	width: 1000px;
+	height: 83px;
+	background:rgba(255,255,0,.5)
+}
+
+#logo{
+	position:absolute;
+	top: 17px;
+	left: 15px;
+	width: 188px;
+	height: 47px;
+	background: rgba(0,0,255,.5);
+}
+/*FIN ESTILO HEADER*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*NAV*/
+nav
+{
+	position:relative;
+	margin:auto;
+	width: 1000px;
+	height: 45px;
+	background:rgba(255,0,0,.5);
+}
+/*FIN NAV*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*SLIDE*/
+#slide
+{
+	position:relative;
+	margin:auto;
+	width: 1000px;
+	height: 301px;
+	background:rgba(0,255,0,.5);
+}
+/*FIN SLIDE*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*BOTONERA SLIDE*/
+#botoneraSlide
+{
+	position:relative;
+	margin:auto;
+	width: 1000px;
+	height: 26px;
+	background: rgba(0,0,255,.5);
+}
+/*FIN BOTONERA SLIDE*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*CONTENIDO*/
+section
+{
+	position:relative;
+	margin:auto;
+	width: 1000px;
+	height: 299px;
+	background: rgba(0,0,255,.3);
+}
+/*FIN CONTENIDO */
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*BOTTOM*/
+#bottom
+{
+	position:relative;
+	margin:auto;
+	width: 1000px;
+	height: 191px;
+	background: rgba(0,255,0,0.3);
+}
+/*FIN BOTTOM*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*FOOTER*/
+footer
+{
+	position:relative;
+	margin:auto;
+	width: 1000px;
+	height: 61px;
+	background: rgba(255,255,0,0.5);
+}
+/*FIN FOOTER*/
+/*------------------------------------------------------------------*/
