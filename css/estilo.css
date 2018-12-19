@@ -119,7 +119,7 @@ nav ul li
 	margin: auto;
 	width: 100px;
 	height: 26px;
-	background: rgba(255,255,255,.5);
+	/*background: rgba(255,255,255,.5);*/
 }
 
 #botoneraSlide ul li{
@@ -127,7 +127,7 @@ nav ul li
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
-	background: black;
+	background: #1e2d82;
 	border: solid 3px white;
 	margin: 4px 2px;
 }
@@ -183,7 +183,8 @@ section ul li img{
 	margin:auto;
 	width: 1000px;
 	height: 191px;
-	background: #191d1f;
+	/*background: #191d1f;*/
+	background: url("../img/bottom.jpg");
 	/*background: rgba(0,255,0,0.3);*/
 }
 
@@ -230,7 +231,7 @@ section ul li img{
 	width: 91px;
 	height: 91px;
 	border: 4px solid white;
-	background: gray;
+	
 }
 
 #bottom ul li ul
@@ -250,7 +251,28 @@ section ul li img{
 	height: 36px;
 	margin:2px 7px;
 	border-radius: 100%;
-	background: rgba(0,0,0,.5);
+	
+	/*background: rgba(0,0,0,.5);*/
+}
+#bottom ul li ul li:first-child
+{
+	background: url("../img/facebook.png");
+	background-size: acover;
+}
+#bottom ul li ul li:nth-child(2)
+{
+	background: url("../img/google.png");
+	background-size: acover;
+}
+#bottom ul li ul li:nth-child(3)
+{
+	background: url("../img/pinterest.png");
+	background-size: acover;
+}
+#bottom ul li ul li:nth-child(4)
+{
+	background: url("../img/twitter.png");
+	background-size: acover;
 }
 /*FIN BOTTOM*/
 /*------------------------------------------------------------------*/
