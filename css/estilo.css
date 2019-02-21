@@ -220,6 +220,7 @@ section ul li img{
 	text-align: left;
 	list-style: inside;/*Que los puntos del listado sean dentro*/
 	font-size: 15px;
+	list-style: url('../img/list.png');
 	color:white;
 }
 
@@ -273,6 +274,15 @@ section ul li img{
 {
 	background: url("../img/twitter.png");
 	background-size: acover;
+}
+
+#bottom ul li ul li a
+{
+	float: left;
+	width: 36px;
+	height: 36px;
+	border-radius: 100%;
+	
 }
 /*FIN BOTTOM*/
 /*------------------------------------------------------------------*/
