@@ -135,8 +135,8 @@ nav ul li
 /*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/
-/*CONTENIDO*/
-section
+/*CONTENIDO INICIO*/
+section#inicio
 {
 	position:relative;
 	margin:auto;
@@ -146,33 +146,106 @@ section
 	/*background: rgba(0,0,255,.3);*/
 }
 
-section ul li{
+section ul li
+{
 	float:left;
 	width: 333px;
 	height: 299px;
 	/*background: rgba(150,150,0,0.5);*/
 }
 
-section ul li h1{
+section ul li h1
+{
 	margin:25px 27px;
 	font-weight: 100;
 	font-size: 25px;
 }
 
-section ul li p{
+section ul li p
+{
 	margin:20px 30px;
 	/*font-weight:100;*/
 	font-size: 15px;
 	text-align: justify
 }
 
-section ul li img{
+section ul li img
+{
 	margin:2px 29px;
 	width: 274px;
 	height: 84px;
 	background: silver;
 }
-/*FIN CONTENIDO */
+/*FIN CONTENIDO INICIO*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*CONTENIDO QUIENES SOMOS*/
+section#quienesSomos
+{
+	position: relative;
+	margin:auto;
+	width: 1000px;
+	height: 298px;
+	background: white;
+	/*background: url('../img/quienesSomos.jpg');*/
+}
+
+section#quienesSomos h1
+{
+	position: relative;
+	top: 15px;
+	left: 27px;
+	color: #1f1e21;
+	font-weight: 100;
+}
+
+section#quienesSomos hr
+{
+	position:relative;
+	top: 20px;
+	width: 950px;
+	margin: auto;
+	border: 1px solid #c6c6c6;
+}
+
+section#quienesSomos p
+{
+	position:relative;
+	top: 40px;
+	width: 950px;
+	margin: auto;
+	text-align: justify;
+	color: #29282b;
+}
+
+section#quienesSomos img
+{
+	float: left;
+	width: 273px;
+	height: 120px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+/*FIN CONTENIDO QUIENES SOMOS*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*CONTENIDO SERVICIOS*/
+section#servicios
+{
+
+}
+/*FIN CONTENIDO SERVICIOS*/
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+/*CONTENIDO CONTACTENOS*/
+section#contactenos
+{
+
+}
+/*FIN CONTENIDO CONTACTENOS*/
 /*------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------*/
