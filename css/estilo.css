@@ -146,7 +146,7 @@ section#inicio
 	/*background: rgba(0,0,255,.3);*/
 }
 
-section ul li
+section#inicio ul li
 {
 	float:left;
 	width: 333px;
@@ -154,14 +154,14 @@ section ul li
 	/*background: rgba(150,150,0,0.5);*/
 }
 
-section ul li h1
+section#inicio ul li h1
 {
 	margin:25px 27px;
 	font-weight: 100;
 	font-size: 25px;
 }
 
-section ul li p
+section#inicio ul li p
 {
 	margin:20px 30px;
 	/*font-weight:100;*/
@@ -169,7 +169,7 @@ section ul li p
 	text-align: justify
 }
 
-section ul li img
+section#inicio ul li img
 {
 	margin:2px 29px;
 	width: 274px;
@@ -223,9 +223,9 @@ section#quienesSomos img
 {
 	float: left;
 	width: 273px;
-	height: 120px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	height: 125px;
+	margin-right: 21px;
+	margin-bottom: 15px;
 }
 /*FIN CONTENIDO QUIENES SOMOS*/
 /*------------------------------------------------------------------*/
@@ -234,7 +234,80 @@ section#quienesSomos img
 /*CONTENIDO SERVICIOS*/
 section#servicios
 {
+	position:relative;
+	margin: auto;
+	width: 1000px;
+	height: 299px;
+	/*background:url('../img/ayudaServicios.jpg');*/
+	background:white;
+}
 
+section#servicios #cajaServicios
+{
+	position:relative;
+	top:18px;
+	width: 935px;
+	height: 262px;
+	margin:auto;
+	/*background: rgba(255,0,0,.5);*/
+	box-shadow: 0px 0px 20px #000;
+}
+
+section#servicios #cajaServicios ul#lista
+{
+	position:absolute;
+	top: 20px;
+	left: 15px;
+	width: 151px;
+	height: 220px;
+	/*background:rgb(0,255,0);*/
+
+}
+section#servicios #cajaServicios ul#lista li
+{
+	width: 151px;
+	height: 72px;
+	margin:2px 0px;
+	cursor:pointer;
+}
+
+section#servicios #cajaServicios ul#visor
+{
+	position:absolute;
+	top: 20px;
+	left: 184px;
+	width: 731px;
+	height: 220px;
+	/*background:rgba(0,255,0,.25);*/
+}
+
+section#servicios #cajaServicios ul#visor li
+{
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 731px;
+	height: 220px;
+}
+section#servicios #cajaServicios ul#visor h1
+{
+	position:absolute;
+	z-index: 1;	
+	top:20px;
+	left: 20px;
+	color: #46545d;
+	font-weight: 100;
+}
+section#servicios #cajaServicios ul#visor p
+{
+	position:absolute;
+	z-index: 1;	
+	bottom: 0;
+	padding-left:20px;
+	background:rgba(0,0,0,.7);
+	color: white;
+	width: 97%;
+	line-height: 60px;
 }
 /*FIN CONTENIDO SERVICIOS*/
 /*------------------------------------------------------------------*/
@@ -281,7 +354,7 @@ section#contactenos
 {
 	position:relative;
 	top:12px;
-	left:17px;
+	left:35px;
 	width: 210px;
 	height: 80px;
 	/*background: rgba(255,0,0,0.5);*/
